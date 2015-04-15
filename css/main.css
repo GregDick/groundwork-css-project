@@ -1,3 +1,14 @@
 body {
-  color: purple;
+  background-color: #cef3f1;
+}
+
+body .box {
+  background: white;
+  border-radius: 40px;
+  position: relative;
+  top: 100px;
+}
+div img:first-child {
+  position: relative;
+  top: -60px;
 }
