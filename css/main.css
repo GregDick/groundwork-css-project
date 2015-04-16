@@ -1,14 +1,39 @@
 body {
   background-color: #78CBD1;
 }
-
-body .box {
-  background: white;
-  border-radius: 40px;
-  position: relative;
-  top: 100px;
+.whiteContainer {
+  background-color: white;
 }
-div img:first-child {
-  position: relative;
-  top: -60px;
+.rightTop {
+  margin-top: 50px;}
+
+.tree {
+  margin-top: 200px;
+  float: right;
+}
+.responsive {
+  background-color: white;
+}
+
+.top {
+background-color: #CeEEEC;
+}
+
+.navigation {
+  background-color: lightpink
+;}
+
+ul li {
+  display: inline-block;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+button {
+ background-color: transparent;
+}
+
+p {color: lightblue;
 }
