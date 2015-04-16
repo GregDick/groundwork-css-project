@@ -1,14 +1,73 @@
 body {
-  background-color: #cef3f1;
+  margin: 0;
+  height: 100%;
 }
 
 body .box {
   background: white;
-  border-radius: 40px;
-  position: relative;
-  top: 100px;
+  border: 0;
 }
-div img:first-child {
+
+div.colorbox:first-child > div.box {
+  border-radius: 40px 40px 0 0;
+}
+
+div.colorbox:not(first-child) > div.box {
+  border-radius: 0 0 40px 40px;
+}
+
+.colorbox:first-of-type {
+  background-color: #cef3f1;
+  padding-top: 100px;
+}
+
+.colorbox:nth-of-type(2) {
+  background-color: #4ecfd5;
+  height: 100%;
+}
+
+body > .nav,
+body> .nav > .box {
+  background-color: #fdc7d1;
+}
+
+.nav {
+  border: 0;
+}
+
+.colorbox:nth-of-type(2),
+body > .nav {
+  position: relative;
+  top: -65px;
+}
+
+div img.logo {
   position: relative;
   top: -60px;
+}
+
+div.row > .nav {
+  background-color: white;
+  width: 100%;
+}
+
+.box ul li {
+  padding: 5px 28px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+input {
+  width: 120px;
+  border-radius: 40px;
+  height: 30px;
+}
+
+.footer {
+  border-top: 5px dotted #d0f3f1;
+  margin-top: 40px;
+}
+
+img.pull-right {
+  margin-right: -70px;
 }
