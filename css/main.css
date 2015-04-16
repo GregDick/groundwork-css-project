@@ -64,11 +64,17 @@ div.row > .nav {
   position: relative;
 }
 
-input {
+input[type=search] {
   width: 160px;
   border-radius: 40px;
-  height: 30px;
+  height: 26px;
   border: 2px solid #f5a4b4;
+  font-size: 15px;
+  font-weight: 400;
+  background: white url(/images/search.gif) left center no-repeat;
+  background-position: 10px 5px;
+  padding: 2px;
+  line-height: normal;
 }
 
 .bottom-owls {
@@ -161,4 +167,19 @@ footer {
 .sign-in li {
   color: #43a1aa;
   font-weight: bold;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fed9e1;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fed9e1;;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fed9e1;;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #fed9e1;;
 }
