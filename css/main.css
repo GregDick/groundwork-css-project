@@ -24,6 +24,7 @@ div.colorbox:not(first-child) > div.box {
 .colorbox:nth-of-type(2) {
   background-color: #4ecfd5;
   height: 100%;
+  padding-bottom: 1500px;
 }
 
 body > .nav,
@@ -38,12 +39,12 @@ body> .nav > .box {
 .colorbox:nth-of-type(2),
 body > .nav {
   position: relative;
-  top: -65px;
+  top: -125px;
 }
 
 div img.logo {
   position: relative;
-  top: -60px;
+  top: -90px;
 }
 
 div.row > .nav {
@@ -51,16 +52,22 @@ div.row > .nav {
   width: 100%;
 }
 
-.box ul li {
-  padding: 5px 28px;
+.box ul:not(.topnav) li {
+  padding: 5px 32px;
   font-size: 20px;
   font-weight: 900;
 }
 
+.box ul.topnav,
+.tagline {
+  position: relative;
+}
+
 input {
-  width: 120px;
+  width: 160px;
   border-radius: 40px;
   height: 30px;
+  border: 2px solid #f5a4b4;
 }
 
 .bottom-owls {
@@ -72,14 +79,18 @@ img.pull-right {
   margin-right: 20px;
 }
 
-img.shop_now {
-  margin: -20px 0 0 -10px;
+img.shop-now {
   width: 100%;
+  margin-left: -30px;
+  margin-top: -10px;
+}
+
+img[src*="tree"] {
+  margin-top: 80px;
 }
 
 ul.topnav li {
   display: inline;
-  padding: 0;
 }
 
 ul button.round.button {
@@ -106,15 +117,6 @@ p:nth-of-type(2) {
   color: #4ec3c9;
 }
 
-.row.twins-row {
-  display: table-cell;
-}
-
-.twins-container {
-  display: table-cell;
-  vertical-align: bottom;
-}
-
 footer {
   height: 200px;
   font-size: 16px;
@@ -123,6 +125,10 @@ footer {
 
 #footer ul {
   text-align: center;
+}
+
+.box.three.centered.fourths > .row {
+  padding: 30px;
 }
 
 #footer li {
@@ -136,4 +142,11 @@ footer {
   color: #f0ffff;
   font-size: 17px;
   opacity: 0.60;
+}
+
+.nav.nocollapse > .box.three.centered.fourths > ul > li {
+  font-family: 'Merriweather', serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #6e013c;
 }
