@@ -1,3 +1,10 @@
+@media(max-width: 767px){
+  .all-content{
+    width: 100%;
+  }
+}
+
+
 article{
   background-color: white;
 }
@@ -9,10 +16,10 @@ article{
 }
 
 .clothing-img p{
-  font-size: 1em;
-  color: black;
+  font-size: 1.5em;
+  color: #7BAD23;
   font-weight: normal;
-  text-align: center3;
+  text-align: justify;
 }
 
 .under-nav li {
