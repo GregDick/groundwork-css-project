@@ -1,8 +1,40 @@
+<<<<<<< HEAD
 /************ FORM STYLING ******************/
 fieldset {
   background-color: #E8F9CB;
   color:#7BAD23;
 }
+=======
+article{
+  background-color: white;
+}
+
+.clothing-img h2 {
+  background-color: #E8F9CB;
+  height: 200px;
+  width: 200px;
+}
+
+.clothing-img p{
+  font-size: 1.5em;
+  color: #7BAD23;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.under-nav li {
+  font-weight: 100 !important;
+  display: inline-block;
+  margin-right: -50px;
+  color: RGB(141, 182, 56);
+}
+
+.under-nav {
+    margin-left: -4px;
+    margin-top: -20px;
+}
+
+>>>>>>> a89db24c89aacf67d3a61ee77c0dc0d1494428ae
 
 fieldset hr {
   color:#7BAD23;
