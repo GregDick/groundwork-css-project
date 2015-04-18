@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 /************ FORM STYLING ******************/
 fieldset {
   background-color: #E8F9CB;
   color:#7BAD23;
 }
-=======
+
 article{
   background-color: white;
 }
@@ -34,8 +33,6 @@ article{
     margin-top: -20px;
 }
 
->>>>>>> a89db24c89aacf67d3a61ee77c0dc0d1494428ae
-
 fieldset hr {
   color:#7BAD23;
   background-color:#7BAD23;
@@ -48,7 +45,7 @@ fieldset hr {
   background: white;
 }
 
-a.button.round{
+a.button.round {
   text-decoration: none;
   background: rgb(124, 171, 43);
   padding: 1em, 0;
