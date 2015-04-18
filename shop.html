@@ -74,7 +74,12 @@
         <form action="#" method="post">
          <fieldset>
           <legend>Limit your search by:</legend>
+
           <hr>
+
+            <div class="row">
+              <input type="search" placeholder="  search" id="shop-search">
+            </div>
             <div class="row">
               <div class="one whole">
                 <label for="condition">Condition:</label>
@@ -129,6 +134,65 @@
                 </ul>
               </div>
             </div>
+            <div class="row">
+              <div class="one whole padded">
+                <label for="seasons">Seasons:</label>
+                <ul class="unstyled zero">
+                  <li>
+                    <input id="seasons" type="radio" name="all-seasons" checked="">
+                    <label for="all-seasons" class="inline">All Seasons</label>
+                  </li>
+                  <li>
+                    <input id="seasons" type="radio" name="spring">
+                    <label for="spring" class="inline">Spring</label>
+                  </li>
+                  <li>
+                    <input id="seasons" type="radio" name="summer">
+                    <label for="summer" class="inline">Summer</label>
+                  </li>
+                  <li>
+                    <input id="seasons" type="radio" name="fall">
+                    <label for="fall" class="inline">Fall</label>
+                  </li>
+                  <li>
+                    <input id="seasons" type="radio" name="winter">
+                    <label for="winter" class="inline">Winter</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="one whole padded">
+                <label for="seasons">Type:</label>
+                <ul class="unstyled zero">
+                  <li>
+                    <input id="seasons" type="radio" name="all-seasons" checked="">
+                    <label for="all-seasons" class="inline">Any</label>
+                  </li>
+                  <li>
+                    <input id="seasons" type="radio" name="spring">
+                    <label for="spring" class="inline">One-Piece</label>
+                  </li>
+                  <li>
+                    <input id="seasons" type="radio" name="summer">
+                    <label for="summer" class="inline">Tops</label>
+                  </li>
+                  <li>
+                    <input id="seasons" type="radio" name="fall">
+                    <label for="fall" class="inline">Bottoms</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="one whole padded"><span class="select-wrap">
+              <select class="unselected">
+                <option value="" disabled="" selected="">Brand:</option>
+                  <option value="Kardashian">Kardashian Kids</option>
+                  <option value="Jellycat">Jellycat</option>
+                  <option value="Bloombaby">Bloombaby</option>
+                  <option value="Bugaboo">Bugaboo</option>
+              </select></span></div>
+
 
        </aside>
 
