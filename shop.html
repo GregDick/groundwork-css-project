@@ -73,12 +73,15 @@
       <aside class="one fifth padded">
         <form action="#" method="post">
          <fieldset>
-          <legend>Limit your search by:</legend>
+          <h4 class="responsive">Limit your search by:</h4>
 
           <hr>
 
             <div class="row">
-              <input type="search" placeholder="  search" id="shop-search">
+              <div class="one whole">
+                <input type="search" id="shop-search" class="inline">
+                <a class="small button round inline" href="#">Search</a>
+              </div>
             </div>
             <div class="row">
               <div class="one whole">
@@ -96,38 +99,38 @@
               </div>
             </div>
             <div class="row">
-              <div class="one whole padded">
+              <div class="one half  padded">
                 <label for="size">Size:</label>
                 <ul class="unstyled zero">
-                  <li>
+                  <li class="radio">
                     <input id="size" type="radio" name="Four" checked="">
                     <label for="Four" class="inline">4</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="size" type="radio" name="Five">
                     <label for="Five" class="inline">5</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="size" type="radio" name="Six">
                     <label for="Six" class="inline">6</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="size" type="radio" name="Seven">
                     <label for="Seven" class="inline">7</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="size" type="radio" name="Eight">
                     <label for="Eight" class="inline">8</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="size" type="radio" name="Eight">
                     <label for="Eight" class="inline">9</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="size" type="radio" name="Ten">
                     <label for="Ten" class="inline">10</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="size" type="radio" name="Eleven">
                     <label for="Eleven" class="inline">11</label>
                   </li>
@@ -138,23 +141,23 @@
               <div class="one whole padded">
                 <label for="seasons">Seasons:</label>
                 <ul class="unstyled zero">
-                  <li>
+                  <li class="radio">
                     <input id="seasons" type="radio" name="all-seasons" checked="">
                     <label for="all-seasons" class="inline">All Seasons</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="seasons" type="radio" name="spring">
                     <label for="spring" class="inline">Spring</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="seasons" type="radio" name="summer">
                     <label for="summer" class="inline">Summer</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="seasons" type="radio" name="fall">
                     <label for="fall" class="inline">Fall</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="seasons" type="radio" name="winter">
                     <label for="winter" class="inline">Winter</label>
                   </li>
@@ -165,19 +168,19 @@
               <div class="one whole padded">
                 <label for="seasons">Type:</label>
                 <ul class="unstyled zero">
-                  <li>
+                  <li class="radio">
                     <input id="seasons" type="radio" name="all-seasons" checked="">
                     <label for="all-seasons" class="inline">Any</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="seasons" type="radio" name="spring">
                     <label for="spring" class="inline">One-Piece</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="seasons" type="radio" name="summer">
                     <label for="summer" class="inline">Tops</label>
                   </li>
-                  <li>
+                  <li class="radio">
                     <input id="seasons" type="radio" name="fall">
                     <label for="fall" class="inline">Bottoms</label>
                   </li>
@@ -185,8 +188,9 @@
               </div>
             </div>
             <div class="one whole padded"><span class="select-wrap">
+              <label for="brand">Brand:</label>
               <select class="unselected">
-                <option value="" disabled="" selected="">Brand:</option>
+                  <option value="" disabled="" selected="">Janie and Jack</option>
                   <option value="Kardashian">Kardashian Kids</option>
                   <option value="Jellycat">Jellycat</option>
                   <option value="Bloombaby">Bloombaby</option>
