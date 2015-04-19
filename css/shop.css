@@ -1,3 +1,5 @@
+/************ BODY STYLING ******************/
+
 article{
   background-color: white;
 }
@@ -56,15 +58,28 @@ article{
 }
 
 /************ FORM STYLING ******************/
-fieldset {
+#form {
   background-color: #E8F9CB;
   color:#7BAD23;
+  border-radius: 40px;
 }
 
-fieldset hr {
+#form form {
+  background-color: #E8F9CB;
+  color:#7BAD23;
+  border-radius: 40px;
+}
+
+#form h4 {
+  padding-top: 8%;
+  line-height: 1.2;
+}
+
+#form hr {
   color:#7BAD23;
   background-color:#7BAD23;
   height: 2px;
+>>>>>>> master
 }
 
 #shop-search {
@@ -73,20 +88,28 @@ fieldset hr {
   background: white;
 }
 
-a.button.round{
+div > a.button.round.small {
   text-decoration: none;
   background: rgb(124, 171, 43);
-  padding: 1em, 0;
+  color: #fff;
+  font-weight: 300;
+  margin: 8px 0 10px 5px;
 }
 
-.button.round {
-  background: rgb(124, 171, 43);
-  padding: 1em, 0;
+.radio {
+  font-weight: 100  !important;
+  font-size: 1em  !important;
+  padding: 0  !important;
+  padding-left: 18% !important;
 }
 
-div > ul:not(.topnav) > .radio {
-  font-weight: 100;
-  font-size: 1em;
-  padding: 0;
+select.unselected {
+  color:#7BAD23;
+  margin-bottom: 10%;
 }
 
+@media screen and (max-width: 770px) {
+  .radio {
+    display: inline-block !important;
+  }
+}
