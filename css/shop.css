@@ -9,7 +9,7 @@ article{
 }
 
 .clothing-img p{
-  font-size: 1.5em;
+  font-size: 1em;
   color: #7BAD23;
   font-weight: normal;
   text-align: justify;
@@ -19,11 +19,40 @@ article{
   font-weight: 100 !important;
   display: inline-block;
   margin-right: -50px;
-  color: RGB(141, 182, 56);
+  color: RGB(84, 121, 18);
 }
 
 .under-nav {
-    margin-left: -4px;
+  margin-left: -4px;
+}
+
+.dropdown-items {
+  border: none;
+  color: RGB(84, 121, 18);
+  appearance: none;
+  height: 20px;
+}
+
+.drop-border {
+ border: solid green 1px; //**changing to RGB changes to unwanted pixel size??**//
+}
+
+.sort-by {
+  text-align: right;
+  padding-right: 3px;
+  color: RGB(84, 121, 18);
+}
+
+.right-list {
+  text-align: right;
+}
+
+.right-list ul:not(.topnav) li {
+  padding: 0;
+  font-size: 15px;
+  font-weight: 200;
+  display: inline-block;
+  color: RGB(84, 121, 18);
 }
 
 /************ FORM STYLING ******************/
