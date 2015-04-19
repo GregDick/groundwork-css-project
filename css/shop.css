@@ -79,7 +79,7 @@ select.unselected {
   margin-bottom: 10%;
 }
 
-@media screen and (max-width: 741px) {
+@media screen and (max-width: 770px) {
   .radio {
     display: inline-block !important;
   }
