@@ -10,11 +10,11 @@ body .box {
 }
 
 div.colorbox:first-child > div.box {
-  border-radius: 40px 40px 0 0;
+  border-radius: $white-border-radius $white-border-radius 0 0;
 }
 
 div.colorbox:not(first-child) > div.box {
-  border-radius: 0 0 40px 40px;
+  border-radius: 0 0 $white-border-radius $white-border-radius;
 }
 
 .colorbox:first-of-type {
