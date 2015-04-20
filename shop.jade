@@ -115,37 +115,41 @@ extends _layout
  <!-- Beginning of main content -->
 
 <!--boxes start here-->
-       <article class="four fifths">
-         <div class="row breadcrumb"> <!--start upper right-->
-           <ul class="under-nav">
-             <li>All</li>
-             <li>&gt</li>
-             <li>Twin</li>
-             <li>&gt</li>
-             <li>B/G</li>
-           </ul>
-         </div> <!--end upper right-->
-         <div class="row"> <!--start row for dropdown-->
-           <div class="one tenth sort-by">sort by:</div>
-           <div class="one seventh drop-border">
-             <select class="dropdown-items">
-               <option value="volvo">Price</option>
-               <option value="saab">Size</option>
-               <option value="mercedes">Age</option>
-               <option value="audi">Type</option>
-             </select>
-           </div><!--end drop-border-->
-           <div class="eight elevenths right-list"> <!--start right list-->
-             <ul>
-             <li><a href="#">prev.</a></li>
-             <li>|</li>
-             <li><a href="a">page num.</a></li>
-             <li>|</li>
-             <li><a href="#">next</a></li>
-             <li>|</li>
-             <li><a href="#">view all</a></li>
-           </ul>
-           </div> <!--end right-list-->
+article.four.fifths
+  .row.breadcrumb
+    // start upper right
+    ul.under-nav
+      li All
+      li &#38;gt
+      li Twin
+      li &#38;gt
+      li B/G
+  // end upper right
+  .row
+    // start row for dropdown
+    .one.tenth.sort-by sort by:
+    .one.seventh.drop-border
+      select.dropdown-items
+        option(value="price") Price
+        option(value="size") Size
+        option(value="Age") Age
+        option(value="Type") Type
+    // end drop-border
+    .eight.elevenths.right-list
+      // start right list
+      ul
+        li
+          a(href="#") prev.
+        li |
+        li
+          a(href="a") page num.
+        li |
+        li
+          a(href="#") next
+        li |
+        li
+          a(href="#") view all
+    // end right-list
          </div> <!--end sort row for dropdown-->
          <div class="row">
            <div class="one fourth three-up-small-tablet two-up-mobile padded">
