@@ -1,0 +1,50 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='viewport', content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1')
+    title GroundworkCSS &hearts; A Responsive HTML5, CSS &amp; Javascript Toolkit
+    link(type='text/css', rel='stylesheet', href='/css/groundwork.css')
+    link(type='text/css', rel='stylesheet', href='/css/site.css')
+    link(href='http://fonts.googleapis.com/css?family=Merriweather:400,700,900', rel='stylesheet', type='text/css')
+
+  body
+    .colorbox
+      ul.footer.sign-in
+        li sign in
+        li |
+        li sign up
+      .box.three.centered.fourths
+        .row
+          .one.half
+            img.logo(src='images/savings-multiplied-logo.png', alt='logo')
+          // logo section
+          .one.half
+            // nav class="nav nocollapse"
+            ul.topnav.desktop-only
+              li
+                button.blue.round.button(href='#') About
+              li
+                button.green.round.button(href='#') Contact
+              li
+                button.purple.round.button(href='#') Blog
+              li
+                button.pink.round.button(href='#') Press
+            // nav
+            img.tagline(src='images/tagline.png', alt='tagline')
+          // top nav
+        // first row ("savings multiplied, nav")
+      // top box
+     nav.nav.nocollapse
+      .box.three.centered.fourths
+        ul
+          li Buy
+          li Sell
+          li How it Works
+          li Links
+          li Community
+          li
+            input(type='search', placeholder='  search')
+
+       block content
