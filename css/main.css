@@ -156,7 +156,7 @@ footer {
 
 .nav.nocollapse > .box.three.centered.fourths > ul > li {
   font-family: 'Merriweather', serif;
-  font-size: 26px;
+  /*font-size: 26px;*/
   font-weight: 900;
   color: #6e013c;
 }
