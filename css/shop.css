@@ -21,7 +21,7 @@ article{
   font-weight: 100 !important;
   display: inline-block;
   margin-right: -50px;
-  color: RGB(84, 121, 18);
+  color: #7BAD23;
 }
 
 .under-nav {
@@ -30,19 +30,19 @@ article{
 
 .dropdown-items {
   border: none;
-  color: RGB(84, 121, 18);
+  color: #7BAD23;
   appearance: none;
   height: 20px;
 }
 
 .drop-border {
- border: solid green 1px; //**changing to RGB changes to unwanted pixel size??**//
+ border: 1px solid #7BAD23;
 }
 
 .sort-by {
   text-align: right;
   padding-right: 3px;
-  color: RGB(84, 121, 18);
+  color: #7BAD23;
 }
 
 .right-list {
@@ -54,7 +54,7 @@ article{
   font-size: 15px;
   font-weight: 200;
   display: inline-block;
-  color: RGB(84, 121, 18);
+  color: #7BAD23;
 }
 
 /************ FORM STYLING ******************/
@@ -79,7 +79,6 @@ article{
   color:#7BAD23;
   background-color:#7BAD23;
   height: 2px;
->>>>>>> master
 }
 
 #shop-search {
