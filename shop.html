@@ -18,8 +18,9 @@
       </ul>
       <div class="box three centered fourths">
         <div class="row">
-          <div class="one half"><img src="images/savings-multiplied-logo.png" alt="logo" class="logo"></div>
-          <!-- logo section-->
+          <div class="one half"><img src="images/savings-multiplied-logo.png" alt="logo" class="logo">
+            <!-- logo section-->
+          </div>
           <div class="one half">
             <!-- nav class="nav nocollapse"-->
             <ul class="topnav desktop-only">
@@ -34,15 +35,15 @@
               </li>
               <li>
                 <button href="#" class="pink round button">Press</button>
+                <!-- nav-->
               </li>
-            </ul>
-            <!-- nav--><img src="images/tagline.png" alt="tagline" class="tagline">
+            </ul><img src="images/tagline.png" alt="tagline" class="tagline">
+            <!-- top nav-->
+            <!-- first row ("savings multiplied, nav")-->
+            <!-- top box-->
           </div>
-          <!-- top nav-->
         </div>
-        <!-- first row ("savings multiplied, nav")-->
       </div>
-      <!-- top box-->
     </div>
     <nav class="nav nocollapse">
       <div class="box three centered fourths">
@@ -57,296 +58,274 @@
           </li>
         </ul>
       </div>
-      <div class="colorbox">
-        <div class="box three centered fourths">
-          <div class="row">
-            <!--form starts here-->
-            <aside id="form" class="class one fifth padded">
-              <form action="#" method="post">
-                <h4>Limit your search by:</h4>
-                <hr>
-              </form>
-            </aside>
-            <div class="row">
-              <div class="one whole">
-                <input id="shop-search" type="search" class="inline"><a href="#" class="small button round">Search</a>
+    </nav>
+    <div class="colorbox">
+      <div class="box three centered fourths">
+        <div class="row">
+          <!--form starts here-->
+          <aside id="form" class="class one fifth padded">
+            <form action="#" method="post">
+              <h4>Limit your search by:</h4>
+              <hr>
+              <div class="row">
+                <div class="one whole">
+                  <input id="shop-search" type="search" class="inline"><a href="#" class="small button round">Search</a>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="one whole">
-                <label for="condition" class="inline-block">Condition:
+              <div class="row">
+                <div class="one whole">
+                  <label for="condition" class="inline-block">Condition:
+                    <ul class="unstyled zero">
+                      <li class="radio">
+                        <input id="New" type="radio" name="condition" checked="">
+                        <label for="New" class="inline">New</label>
+                      </li>
+                      <li class="radio">
+                        <input id="Used" type="radio" name="condition">
+                        <label for="Used" class="inline">Gently Used</label>
+                      </li>
+                    </ul>
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="one whole">
+                  <label for="size">Size:
+                    <ul class="unstyled zero">
+                      <div class="one half padded">
+                        <li class="radio">
+                          <input id="Four" type="radio" name="size" checked="">
+                          <label for="Four" class="inline">4</label>
+                        </li>
+                        <li class="radio">
+                          <input id="Five" type="radio" name="size">
+                          <label for="Five" class="inline">5</label>
+                        </li>
+                        <li class="radio">
+                          <input id="Six" type="radio" name="size">
+                          <label for="Six" class="inline">6</label>
+                        </li>
+                        <li class="radio">
+                          <input id="Seven" type="radio" name="size">
+                          <label for="Seven" class="inline">7</label>
+                        </li>
+                      </div>
+                      <div class="one half padded">
+                        <li class="radio">
+                          <input id="Eight" type="radio" name="size">
+                          <label for="Eight" class="inline">8</label>
+                        </li>
+                        <li class="radio">
+                          <input id="Nine" type="radio" name="size">
+                          <label for="Eight" class="inline">9</label>
+                        </li>
+                        <li class="radio">
+                          <input id="Ten" type="radio" name="size">
+                          <label for="Ten" class="inline">10</label>
+                        </li>
+                        <li class="radio">
+                          <input id="Eleven" type="radio" name="size">
+                          <label for="Eleven" class="inline">11</label>
+                        </li>
+                      </div>
+                    </ul>
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="one whole">
+                  <label for="seasons">Seasons:
+                    <ul class="unstyled zero">
+                      <li class="radio">
+                        <input id="seasons" type="radio" name="seasons" checked="">
+                        <label for="all-seasons" class="inline">All Seasons</label>
+                      </li>
+                      <li class="radio">
+                        <input id="spring" type="radio" name="seasons">
+                        <label for="spring" class="inline">Spring</label>
+                      </li>
+                      <li class="radio">
+                        <input id="summer" type="radio" name="seasons">
+                        <label for="summer" class="inline">Summer</label>
+                      </li>
+                      <li class="radio">
+                        <input id="fall" type="radio" name="seasons">
+                        <label for="fall" class="inline">Fall</label>
+                      </li>
+                      <li class="radio">
+                        <input id="winter" type="radio" name="seasons">
+                        <label for="winter" class="inline">Winter</label>
+                      </li>
+                    </ul>
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="one whole">
+                  <label for="type">Type:</label>
                   <ul class="unstyled zero">
                     <li class="radio">
-                      <input id="New" type="radio" name="condition" checked="">
-                      <label for="New" class="inline">New</label>
+                      <input id="any" type="radio" name="type">
+                      <label for="any" class="inline">Any</label>
                     </li>
                     <li class="radio">
-                      <input id="Used" type="radio" name="condition">
-                      <label for="Used" class="inline">Gently Used</label>
+                      <input id="one-piece" type="radio" name="type">
+                      <label for="one-piece" class="inline">One-Piece</label>
+                    </li>
+                    <li class="radio">
+                      <input id="tops" type="radio" name="type">
+                      <label for="tops" class="inline">Tops</label>
+                    </li>
+                    <li class="radio">
+                      <input id="bottoms" type="radio" name="type">
+                      <label for="bottoms" class="inline">Bottoms</label>
                     </li>
                   </ul>
-                </label>
+                </div>
               </div>
+              <div class="row">
+                <div class="one whole"><span class="select-wrap">
+                    <label for="brand">Brand:</label>
+                    <select class="unselected">
+                      <option>Janie and Jack</option>
+                      <option>Kardashian Kids</option>
+                      <option>Jellycat</option>
+                      <option>Bloombaby</option>
+                      <option>Bugaboo</option>
+                    </select></span></div>
+              </div>
+            </form>
+          </aside>
+          <article class="four fifths">
+            <div class="row breadcrumb">
+              <ul class="under-nav">
+                <li>All</li>
+                <li>></li>
+                <li>Twin</li>
+                <li>></li>
+                <li>B/G</li>
+                <!-- end upper right -->
+              </ul>
             </div>
             <div class="row">
-              <div class="one whole">
-                <label for="size">Size:
-                  <ul class="unstyled zero">
-                    <div class="one half padded">
-                      <li class="radio">
-                        <input id="Four" type="radio" name="size" checked="">
-                        <label for="Four" class="inline">4</label>
-                      </li>
-                      <li class="radio">
-                        <input id="Five" type="radio" name="size">
-                        <label for="Five" class="inline">5</label>
-                      </li>
-                      <li class="radio">
-                        <input id="Six" type="radio" name="size">
-                        <label for="Six" class="inline">6</label>
-                      </li>
-                      <li class="radio">
-                        <input id="Seven" type="radio" name="size">
-                        <label for="Seven" class="inline">7</label>
-                      </li>
-                    </div>
-                    <div class="one half padded">
-                      <li class="radio">
-                        <input id="Eight" type="radio" name="size">
-                        <label for="Eight" class="inline">8</label>
-                      </li>
-                      <li class="radio">
-                        <input id="Nine" type="radio" name="size">
-                        <label for="Eight" class="inline">9</label>
-                      </li>
-                      <li class="radio">
-                        <input id="Ten" type="radio" name="size">
-                        <label for="Ten" class="inline">10</label>
-                      </li>
-                      <li class="radio">
-                        <input id="Eleven" type="radio" name="size">
-                        <label for="Eleven" class="inline">11</label>
-                      </li>
-                    </div>
-                  </ul>
-                </label>
+              <!-- start row for dropdown-->
+              <div class="one tenth sort-by">sort by:</div>
+              <div class="one seventh drop-border">
+                <select class="dropdown-items">
+                  <option value="price">Price</option>
+                  <option value="size">Size</option>
+                  <option value="Age">Age</option>
+                  <option value="Type">Type</option>
+                  <!-- end drop-border-->
+                </select>
               </div>
-            </div>
-            <div class="row">
-              <div class="one whole">
-                <label for="seasons">Seasons:
-                  <ul class="unstyled zero">
-                    <li class="radio">
-                      <input id="seasons" type="radio" name="seasons" checked="">
-                      <label for="all-seasons" class="inline">All Seasons</label>
-                    </li>
-                    <li class="radio">
-                      <input id="spring" type="radio" name="seasons">
-                      <label for="spring" class="inline">Spring</label>
-                    </li>
-                    <li class="radio">
-                      <input id="summer" type="radio" name="seasons">
-                      <label for="summer" class="inline">Summer</label>
-                    </li>
-                    <li class="radio">
-                      <input id="fall" type="radio" name="seasons">
-                      <label for="fall" class="inline">Fall</label>
-                    </li>
-                    <li class="radio">
-                      <input id="winter" type="radio" name="seasons">
-                      <label for="winter" class="inline">Winter</label>
-                    </li>
-                  </ul>
-                </label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="one whole">
-                <label for="type">Type:</label>
-                <ul class="unstyled zero">
-                  <li class="radio">
-                    <input id="any" type="radio" name="type">
-                    <label for="any" class="inline">Any</label>
-                  </li>
-                  <li class="radio">
-                    <input id="one-piece" type="radio" name="type">
-                    <label for="one-piece" class="inline">One-Piece</label>
-                  </li>
-                  <li class="radio">
-                    <input id="tops" type="radio" name="type">
-                    <label for="tops" class="inline">Tops</label>
-                  </li>
-                  <li class="radio">
-                    <input id="bottoms" type="radio" name="type">
-                    <label for="bottoms" class="inline">Bottoms</label>
-                  </li>
+              <div class="eight elevenths right-list">
+                <!-- start right list-->
+                <ul>
+                  <li><a href="#">prev.</a></li>
+                  <li>|</li>
+                  <li><a href="a">page num.</a></li>
+                  <li>|</li>
+                  <li><a href="#">next</a></li>
+                  <li>|</li>
+                  <li><a href="#">view all</a></li>
                 </ul>
               </div>
             </div>
+            <!-- end right-list// end sort row for dropdown
+            -->
             <div class="row">
-              <div class="one whole"><span class="select-wrap">
-                  <label for="brand">Brand:</label>
-                  <select class="unselected">
-                    <option>Janie and Jack</option>
-                    <option>Kardashian Kids</option>
-                    <option>Jellycat</option>
-                    <option>Bloombaby</option>
-                    <option>Bugaboo</option>
-                  </select></span></div>
+              <div class="one fourth three-up-small-tablet two-up-mobile padded">
+                <div class="box clothing-img"><img src="images/green_square.jpg">
+                  <p class="responsive">Sailor Suits $15.00</p>
+                  <p class="responsive">Jane Joe 4 hours</p>
+                </div>
+              </div>
+              <div class="one fourth three-up-small-tablet two-up-mobile padded">
+                <div class="box clothing-img"><img src="images/green_square.jpg">
+                  <p class="responsive">Sailor Suits $15.00</p>
+                  <p class="responsive">Jane Joe 4 hours</p>
+                </div>
+              </div>
+              <div class="one fourth three-up-small-tablet two-up-mobile padded">
+                <div class="box clothing-img"><img src="images/green_square.jpg">
+                  <p class="responsive">Sailor Suits $15.00</p>
+                  <p class="responsive">Jane Joe 4 hours</p>
+                </div>
+              </div>
+              <div class="one fourth three-up-small-tablet two-up-mobile padded">
+                <div class="box clothing-img"><img src="images/green_square.jpg">
+                  <p class="responsive">Sailor Suits $15.00</p>
+                  <p class="responsive">Jane Joe 4 hours</p>
+                </div>
+              </div>
+              <div class="one fourth three-up-small-tablet two-up-mobile padded">
+                <div class="box clothing-img"><img src="images/green_square.jpg">
+                  <p class="responsive">Sailor Suits $15.00</p>
+                  <p class="responsive">Jane Joe 4 hours</p>
+                </div>
+              </div>
+              <div class="one fourth three-up-small-tablet two-up-mobile padded">
+                <div class="box clothing-img"><img src="images/green_square.jpg">
+                  <p class="responsive">Sailor Suits $15.00</p>
+                  <p class="responsive">Jane Joe 4 hours</p>
+                </div>
+              </div>
+              <div class="one fourth three-up-small-tablet two-up-mobile padded">
+                <div class="box clothing-img"><img src="images/green_square.jpg">
+                  <p class="responsive">Sailor Suits $15.00</p>
+                  <p class="responsive">Jane Joe 4 hours</p>
+                </div>
+              </div>
+              <div class="one fourth three-up-small-tablet two-up-mobile padded">
+                <div class="box clothing-img"><img src="images/green_square.jpg">
+                  <p class="responsive">Sailor Suits $15.00</p>
+                  <p class="responsive">Jane Joe 4 hours</p>
+                </div>
+              </div>
+              <div class="one fourth three-up-small-tablet two-up-mobile padded">
+                <div class="box clothing-img"><img src="images/green_square.jpg">
+                  <p class="responsive">Sailor Suits $15.00</p>
+                  <p class="responsive">Jane Joe 4 hours</p>
+                </div>
+              </div>
+              <div class="one fourth three-up-small-tablet two-up-mobile padded">
+                <div class="box clothing-img"><img src="images/green_square.jpg">
+                  <p class="responsive">Sailor Suits $15.00</p>
+                  <p class="responsive">Jane Joe 4 hours</p>
+                </div>
+              </div>
+              <div class="one fourth three-up-small-tablet two-up-mobile padded">
+                <div class="box clothing-img"><img src="images/green_square.jpg">
+                  <p class="responsive">Sailor Suits $15.00</p>
+                  <p class="responsive">Jane Joe 4 hours</p>
+                </div>
+              </div>
+              <div class="one fourth three-up-small-tablet two-up-mobile padded">
+                <div class="box clothing-img"><img src="images/green_square.jpg">
+                  <p class="responsive">Sailor Suits $15.00</p>
+                  <p class="responsive">Jane Joe 4 hours</p>
+                </div>
+              </div>
             </div>
-            <article class="four fifths">
-              <div class="row breadcrumb">
-                <ul class="under-nav">
-                  <li>All</li>
-                  <li>&#38;gt</li>
-                  <li>Twin</li>
-                  <li>&#38;gt</li>
-                  <li>B/G</li>
-                  <!-- end upper right -->
-                </ul>
-              </div>
-              <div class="row">
-                <!-- start row for dropdown-->
-                <div class="one tenth sort-by">sort by:</div>
-                <div class="one seventh drop-border">
-                  <select class="dropdown-items">
-                    <option value="price">Price</option>
-                    <option value="size">Size</option>
-                    <option value="Age">Age</option>
-                    <option value="Type">Type</option>
-                    <!-- end drop-border-->
-                  </select>
-                </div>
-                <div class="eight elevenths right-list">
-                  <!-- start right list-->
-                  <ul>
-                    <li><a href="#">prev.</a></li>
-                    <li>|</li>
-                    <li><a href="a">page num.</a></li>
-                    <li>|</li>
-                    <li><a href="#">next</a></li>
-                    <li>|</li>
-                    <li><a href="#">view all</a></li>
-                  </ul>
-                </div>
-              </div>
-              <!-- end right-list// end sort row for dropdown
-              -->
-              <div class="row">
-                <div class="one fourth three-up-small-tablet two-up-mobile padded">
-                  <div class="box clothing-img"><img src="images/green_square.jpg">
-                    <p class="responsive">Sailor Suits $15.00</p>
-                    <p class="responsive">Jane Joe 4 hours</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="one fourth three-up-small-tablet two-up-mobile padded">
-                  <div class="box clothing-img"><img src="images/green_square.jpg">
-                    <p class="responsive">Sailor Suits $15.00</p>
-                    <p class="responsive">Jane Joe 4 hours</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="one fourth three-up-small-tablet two-up-mobile padded">
-                  <div class="box clothing-img"><img src="images/green_square.jpg">
-                    <p class="responsive">Sailor Suits $15.00</p>
-                    <p class="responsive">Jane Joe 4 hours</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="one fourth three-up-small-tablet two-up-mobile padded">
-                  <div class="box clothing-img"><img src="images/green_square.jpg">
-                    <p class="responsive">Sailor Suits $15.00</p>
-                    <p class="responsive">Jane Joe 4 hours</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="one fourth three-up-small-tablet two-up-mobile padded">
-                  <div class="box clothing-img"><img src="images/green_square.jpg">
-                    <p class="responsive">Sailor Suits $15.00</p>
-                    <p class="responsive">Jane Joe 4 hours</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="one fourth three-up-small-tablet two-up-mobile padded">
-                  <div class="box clothing-img"><img src="images/green_square.jpg">
-                    <p class="responsive">Sailor Suits $15.00</p>
-                    <p class="responsive">Jane Joe 4 hours</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="one fourth three-up-small-tablet two-up-mobile padded">
-                  <div class="box clothing-img"><img src="images/green_square.jpg">
-                    <p class="responsive">Sailor Suits $15.00</p>
-                    <p class="responsive">Jane Joe 4 hours</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="one fourth three-up-small-tablet two-up-mobile padded">
-                  <div class="box clothing-img"><img src="images/green_square.jpg">
-                    <p class="responsive">Sailor Suits $15.00</p>
-                    <p class="responsive">Jane Joe 4 hours</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="one fourth three-up-small-tablet two-up-mobile padded">
-                  <div class="box clothing-img"><img src="images/green_square.jpg">
-                    <p class="responsive">Sailor Suits $15.00</p>
-                    <p class="responsive">Jane Joe 4 hours</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="one fourth three-up-small-tablet two-up-mobile padded">
-                  <div class="box clothing-img"><img src="images/green_square.jpg">
-                    <p class="responsive">Sailor Suits $15.00</p>
-                    <p class="responsive">Jane Joe 4 hours</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="one fourth three-up-small-tablet two-up-mobile padded">
-                  <div class="box clothing-img"><img src="images/green_square.jpg">
-                    <p class="responsive">Sailor Suits $15.00</p>
-                    <p class="responsive">Jane Joe 4 hours</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="one fourth three-up-small-tablet two-up-mobile padded">
-                  <div class="box clothing-img"><img src="images/green_square.jpg">
-                    <p class="responsive">Sailor Suits $15.00</p>
-                    <p class="responsive">Jane Joe 4 hours</p>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="footer">
-          <ul>
-            <li>Link Here</li>
-            <li>|</li>
-            <li>Link Here</li>
-            <li>|</li>
-            <li>Link Here</li>
-            <li>|</li>
-            <li>Link Here</li>
-            <li>|</li>
-            <li>Link Here</li>
-            <li>|</li>
-            <li>Link Here</li>
-          </ul>
+          </article>
         </div>
       </div>
-    </nav>
+      <div class="footer">
+        <ul>
+          <li>Link Here</li>
+          <li>|</li>
+          <li>Link Here</li>
+          <li>|</li>
+          <li>Link Here</li>
+          <li>|</li>
+          <li>Link Here</li>
+          <li>|</li>
+          <li>Link Here</li>
+          <li>|</li>
+          <li>Link Here</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
