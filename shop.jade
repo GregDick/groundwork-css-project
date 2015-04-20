@@ -73,48 +73,37 @@ extends _layout
                     li.radio
                       input#winter(type="radio" name="seasons")
                       label.inline(for="winter") Winter
-            <div class="row">
-              <div class="one whole">
-                <label for="type">Type:</label>
-                <ul class="unstyled zero">
-                  <li class="radio">
-                    <input id="any" type="radio" name="type" checked="">
-                    <label for="any" class="inline">Any</label>
-                  </li>
-                  <li class="radio">
-                    <input id="one-piece" type="radio" name="type">
-                    <label for="one-piece" class="inline">One-Piece</label>
-                  </li>
-                  <li class="radio">
-                    <input id="tops" type="radio" name="type">
-                    <label for="tops" class="inline">Tops</label>
-                  </li>
-                  <li class="radio">
-                    <input id="bottoms" type="radio" name="type">
-                    <label for="bottoms" class="inline">Bottoms</label>
-                  </li>
-                </ul>
-              </div>
-            </div>
-           <div class="row">
-            <div class="one whole"><span class="select-wrap">
-              <label for="brand">Brand:</label>
-              <select class="unselected">
-                  <option value="" disabled="" selected="">Janie and Jack</option>
-                  <option value="Kardashian">Kardashian Kids</option>
-                  <option value="Jellycat">Jellycat</option>
-                  <option value="Bloombaby">Bloombaby</option>
-                  <option value="Bugaboo">Bugaboo</option>
-              </select></span></div>
-           </div>
-         </form>
+                       <div class="row">
+            .row
+              .one.whole
+                label(for="type") Type:
+                ul.unstyled.zero
+                  li.radio
+                    input#any(type="radio", name="type")
+                    label.inline(for="any") Any
+                  li.radio
+                    input#one-piece(type="radio", name="type")
+                    label.inline(for="one-piece") One-Piece
+                  li.radio
+                    input#tops(type="radio", name="type")
+                    label.inline(for="tops") Tops
+                  li.radio
+                    input#bottoms(type="radio", name="type")
+                    label.inline(for="bottoms") Bottoms
+            .row
+              .one.whole
+                span.select-wrap
+                  label(for="brand") Brand:
+                  select.unselected
+                    option Janie and Jack
+                    option Kardashian Kids
+                    option Jellycat
+                    option Bloombaby
+                    option Bugaboo
 
-       </aside> <!-- Beginning of main content -->
+// Beginning of main content
 
-
- <!-- Beginning of main content -->
-
-<!--boxes start here-->
+// boxes start here
 article.four.fifths
   .row.breadcrumb
     // start upper right
@@ -150,111 +139,89 @@ article.four.fifths
         li
           a(href="#") view all
     // end right-list
-         </div> <!--end sort row for dropdown-->
-         <div class="row">
-           <div class="one fourth three-up-small-tablet two-up-mobile padded">
-             <div class="box clothing-img">
-               <img src="images/green_square.jpg" alt=""/>
-               <p class="responsive">Sailor Suits $15.00</p>
-               <p class="responsive">Jane Joe 4 hours</p>
-             </div>
-           </div>
-           <div class="one fourth three-up-small-tablet two-up-mobile padded">
-             <div class="box clothing-img">
-               <img src="images/green_square.jpg" alt=""/>
-               <p class="responsive">Sailor Suits $15.00</p>
-               <p class="responsive">Jane Joe 4 hours</p>
-             </div>
-           </div>
-           <div class="one fourth three-up-small-tablet two-up-mobile padded">
-             <div class="box clothing-img">
-               <img src="images/green_square.jpg" alt=""/>
-               <p class="responsive">Sailor Suits $15.00</p>
-               <p class="responsive">Jane Joe 4 hours</p>
-             </div>
-           </div>
-           <div class="one fourth three-up-small-tablet two-up-mobile padded">
-             <div class="box clothing-img">
-               <img src="images/green_square.jpg" alt=""/>
-               <p class="responsive">Sailor Suits $15.00</p>
-               <p class="responsive">Jane Joe 4 hours</p>
-             </div>
-           </div>
-           <div class="one fourth three-up-small-tablet two-up-mobile padded">
-             <div class="box clothing-img">
-               <img src="images/green_square.jpg" alt="" />
-               <p class="responsive">Sailor Suits $15.00</p>
-               <p class="responsive" >Jane Joe 4 hours</p>
-             </div>
-           </div>
-           <div class="one fourth three-up-small-tablet two-up-mobile padded">
-             <div class="box clothing-img">
-               <img src="images/green_square.jpg" alt="" />
-               <p class="responsive">Sailor Suits $15.00</p>
-               <p class="responsive" >Jane Joe 4 hours</p>
-             </div>
-           </div>
-           <div class="one fourth three-up-small-tablet two-up-mobile padded">
-             <div class="box clothing-img">
-               <img src="images/green_square.jpg" alt="" />
-               <p class="responsive">Sailor Suits $15.00</p>
-               <p class="responsive">Jane Joe 4 hours</p>
-             </div>
-           </div>
-           <div class="one fourth three-up-small-tablet two-up-mobile padded">
-             <div class="box clothing-img">
-               <img src="images/green_square.jpg" alt="" />
-               <p class="responsive">Sailor Suits $15.00</p>
-               <p class="responsive">Jane Joe 4 hours</p>
-             </div>
-           </div>
-           <div class="one fourth three-up-small-tablet two-up-mobile padded">
-             <div class="box clothing-img">
-               <img src="images/green_square.jpg" alt="" />
-               <p class="responsive">Sailor Suits $15.00</p>
-               <p class="responsive">Jane Joe 4 hours</p>
-             </div>
-           </div>
-           <div class="one fourth three-up-small-tablet two-up-mobile padded">
-             <div class="box clothing-img">
-               <img src="images/green_square.jpg" alt="" />
-               <p class="responsive">Sailor Suits $15.00</p>
-               <p class="responsive">Jane Joe 4 hours</p>
-             </div>
-           </div>
-           <div class="one fourth three-up-small-tablet two-up-mobile padded">
-             <div class="box clothing-img">
-               <img src="images/green_square.jpg" alt="" />
-               <p class="responsive">Sailor Suits $15.00</p>
-               <p class="responsive">Jane Joe 4 hours</p>
-             </div>
-           </div>
-           <div class="one fourth three-up-small-tablet two-up-mobile padded">
-             <div class="box clothing-img">
-               <img src="images/green_square.jpg" alt="" />
-               <p class="responsive">Sailor Suits $15.00</p>
-               <p class="responsive">Jane Joe 4 hours</p>
-             </div>
-           </div>
-         </div>
-       </article>
-     </div>
-    </div>
-    <div class="footer">
-        <ul>
-          <li>Link Here</li>
-          <li>|</li>
-          <li>Link Here</li>
-          <li>|</li>
-          <li>Link Here</li>
-          <li>|</li>
-          <li>Link Here</li>
-          <li>|</li>
-          <li>Link Here</li>
-          <li>|</li>
-          <li>Link Here</li>
-        </ul>
-      </div>
-    </div> <!--bottom colorbox-->
-  </body>
-</html>
+        <!--end sort row for dropdown-->
+          .row
+             .one.fourth.three-up-small-tablet.two-up-mobile.padded
+               .box.clothing-img
+                 img(src="images/green_square.jpg")
+                 p.responsive Sailor Suits $15.00
+                 p.responsive Jane Joe 4 hours
+          .row
+             .one.fourth.three-up-small-tablet.two-up-mobile.padded
+               .box.clothing-img
+                 img(src="images/green_square.jpg")
+                 p.responsive Sailor Suits $15.00
+                 p.responsive Jane Joe 4 hours
+          .row
+             .one.fourth.three-up-small-tablet.two-up-mobile.padded
+               .box.clothing-img
+                 img(src="images/green_square.jpg")
+                 p.responsive Sailor Suits $15.00
+                 p.responsive Jane Joe 4 hours
+          .row
+             .one.fourth.three-up-small-tablet.two-up-mobile.padded
+               .box.clothing-img
+                 img(src="images/green_square.jpg")
+                 p.responsive Sailor Suits $15.00
+                 p.responsive Jane Joe 4 hours
+          .row
+             .one.fourth.three-up-small-tablet.two-up-mobile.padded
+               .box.clothing-img
+                 img(src="images/green_square.jpg")
+                 p.responsive Sailor Suits $15.00
+                 p.responsive Jane Joe 4 hours
+          .row
+             .one.fourth.three-up-small-tablet.two-up-mobile.padded
+               .box.clothing-img
+                 img(src="images/green_square.jpg")
+                 p.responsive Sailor Suits $15.00
+                 p.responsive Jane Joe 4 hours
+          .row
+             .one.fourth.three-up-small-tablet.two-up-mobile.padded
+               .box.clothing-img
+                 img(src="images/green_square.jpg")
+                 p.responsive Sailor Suits $15.00
+                 p.responsive Jane Joe 4 hours
+          .row
+             .one.fourth.three-up-small-tablet.two-up-mobile.padded
+               .box.clothing-img
+                 img(src="images/green_square.jpg")
+                 p.responsive Sailor Suits $15.00
+                 p.responsive Jane Joe 4 hours
+          .row
+             .one.fourth.three-up-small-tablet.two-up-mobile.padded
+               .box.clothing-img
+                 img(src="images/green_square.jpg")
+                 p.responsive Sailor Suits $15.00
+                 p.responsive Jane Joe 4 hours
+          .row
+             .one.fourth.three-up-small-tablet.two-up-mobile.padded
+               .box.clothing-img
+                 img(src="images/green_square.jpg")
+                 p.responsive Sailor Suits $15.00
+                 p.responsive Jane Joe 4 hours
+          .row
+             .one.fourth.three-up-small-tablet.two-up-mobile.padded
+               .box.clothing-img
+                 img(src="images/green_square.jpg")
+                 p.responsive Sailor Suits $15.00
+                 p.responsive Jane Joe 4 hours
+          .row
+             .one.fourth.three-up-small-tablet.two-up-mobile.padded
+               .box.clothing-img
+                 img(src="images/green_square.jpg")
+                 p.responsive Sailor Suits $15.00
+                 p.responsive Jane Joe 4 hours
+    .footer
+      ul
+        li Link Here
+        li |
+        li Link Here
+        li |
+        li Link Here
+        li |
+        li Link Here
+        li |
+        li Link Here
+        li |
+        li Link Here
