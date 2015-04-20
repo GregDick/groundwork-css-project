@@ -30,7 +30,7 @@ div.colorbox:not(first-child) > div.box {
 
 body > .nav,
 body> .nav > .box {
-  background-color: #fdc7d1;
+  background-color: $pink-navbar;
 }
 
 .nav {
@@ -172,16 +172,16 @@ footer {
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #fed9e1;
+    color:    $pink-navbar;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #fed9e1;;
+   color:    $pink-navbar:
    opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #fed9e1;;
+   color:    $pink-navbar;
    opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:    #fed9e1;
-}
+   color:    $pink-navbar;
+ }
