@@ -85,13 +85,14 @@ article{
   border: 0;
   border-radius: 0;
   background: white;
+  width: 100%;
 }
 
 div > a.button.round.small {
   text-decoration: none;
   background: rgb(124, 171, 43);
   color: #fff;
-  font-weight: 300;
+  font-weight: 100;
   margin: 8px 0 10px 5px;
 }
 
@@ -104,7 +105,7 @@ div > a.button.round.small {
 
 select.unselected {
   color:#7BAD23;
-  margin-bottom: 10%;
+  margin-bottom: 30%;
 }
 
 @media screen and (max-width: 770px) {
