@@ -10,11 +10,11 @@ body .box {
 }
 
 div.colorbox:first-child > div.box {
-  border-radius: 40px 40px 0 0;
+  border-radius: $white-border-radius $white-border-radius 0 0;
 }
 
 div.colorbox:not(first-child) > div.box {
-  border-radius: 0 0 40px 40px;
+  border-radius: 0 0 $white-border-radius $white-border-radius;
 }
 
 .colorbox:first-of-type {
@@ -30,7 +30,7 @@ div.colorbox:not(first-child) > div.box {
 
 body > .nav,
 body> .nav > .box {
-  background-color: #fdc7d1;
+  background-color: $pink-navbar;
 }
 
 .nav {
@@ -172,16 +172,16 @@ footer {
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #fed9e1;
+    color:    $pink-navbar;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #fed9e1;;
+   color:    $pink-navbar:
    opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #fed9e1;;
+   color:    $pink-navbar;
    opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:    #fed9e1;
-}
+   color:    $pink-navbar;
+ }
