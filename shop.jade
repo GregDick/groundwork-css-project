@@ -4,103 +4,75 @@ extends _layout
      .box.three.centered.fourths
        .row
         //form starts here
-        aside#form.one fifth padded">
-        <form action="#" method="post">
-          <h4>Limit your search by:</h4>
+         aside#form.class.one.fifth.padded
+          form(action="#", method="post")
+           h4 Limit your search by:
 
-          <hr>
+           hr
 
-            <div class="row">
-              <div class="one whole">
-                <input type="search" id="shop-search" class="inline">
-                <a class="small button round" href="#">Search</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="one whole">
-                <label for="condition" class="inline-block">Condition:</label>
-                <ul class="unstyled zero">
-                  <li class="radio">
-                    <input id="New" type="radio" name="condition" checked="">
-                    <label for="New" class="inline">New</label>
-                  </li>
-                  <li class="radio">
-                    <input id="Used" type="radio" name="condition">
-                    <label for="Used" class="inline">Gently Used</label>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="one whole">
-                <label for="size">Size:</label>
-                <ul class="unstyled zero">
-                 <div class="one half padded">
-                  <li class="radio">
-                    <input id="Four" type="radio" name="size" checked="">
-                    <label for="Four" class="inline">4</label>
-                  </li>
-                  <li class="radio">
-                    <input id="Five" type="radio" name="size">
-                    <label for="Five" class="inline">5</label>
-                  </li>
-                  <li class="radio">
-                    <input id="Six" type="radio" name="size">
-                    <label for="Six" class="inline">6</label>
-                  </li>
-                  <li class="radio">
-                    <input id="Seven" type="radio" name="size">
-                    <label for="Seven" class="inline">7</label>
-                  </li>
-               </div>
-               <div class="one half padded">
-                  <li class="radio">
-                    <input id="Eight" type="radio" name="size">
-                    <label for="Eight" class="inline">8</label>
-                  </li>
-                  <li class="radio">
-                    <input id="Nine" type="radio" name="size">
-                    <label for="Eight" class="inline">9</label>
-                  </li>
-                  <li class="radio">
-                    <input id="Ten" type="radio" name="size">
-                    <label for="Ten" class="inline">10</label>
-                  </li>
-                  <li class="radio">
-                    <input id="Eleven" type="radio" name="size">
-                    <label for="Eleven" class="inline">11</label>
-                  </li>
-              </div>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="one whole">
-                <label for="seasons">Seasons:</label>
-                <ul class="unstyled zero">
-                  <li class="radio">
-                    <input id="seasons" type="radio" name="seasons" checked="">
-                    <label for="all-seasons" class="inline">All Seasons</label>
-                  </li>
-                  <li class="radio">
-                    <input id="spring" type="radio" name="seasons">
-                    <label for="spring" class="inline">Spring</label>
-                  </li>
-                  <li class="radio">
-                    <input id="summer" type="radio" name="seasons">
-                    <label for="summer" class="inline">Summer</label>
-                  </li>
-                  <li class="radio">
-                    <input id="fall" type="radio" name="seasons">
-                    <label for="fall" class="inline">Fall</label>
-                  </li>
-                  <li class="radio">
-                    <input id="winter" type="radio" name="seasons">
-                    <label for="winter" class="inline">Winter</label>
-                  </li>
-                </ul>
-              </div>
-            </div>
+         .row
+            .one.whole
+               input#shop-search.inline(type="search")
+               a.small.button.round(href="#") Search
+         .row
+            .one.whole
+              label.inline-block(for="condition") Condition:
+                ul.unstyled.zero
+                  li.radio
+                    input#New(type="radio", name="condition", checked="")
+                    label.inline(for="New") New
+                  li.radio
+                    input#Used(type="radio" name="condition")
+                    label.inline(for="Used") Gently Used
+          .row
+             .one.whole
+                label(for="size") Size:
+                ul.unstyled.zero
+                 .one.half.padded
+                   li.radio
+                     input#Four(type="radio" name="size" checked="")
+                     label.inline(for="Four") 4
+                   li.radio
+                     input#Five(type="radio" name="size")
+                     label.inline(for="Five") 5
+                   li.radio
+                     input#Six(type="radio" name="size")
+                     label.inline(for="Six") 6
+                   li.radio
+                     input#Seven(type="radio" name="size")
+                     label.inline(for="Seven") 7
+                 .one.half.padded
+                   li.radio
+                     input#Eight(type="radio" name="size")
+                     label.inline(for="Eight") 8
+                   li.radio
+                     input#Nine(type="radio" name="size")
+                     label.inline(for="Eight") 9
+                   li.radio
+                     input#Ten(type="radio" name="size")
+                     label.inline(for="Ten") 10
+                   li.radio
+                     input#Eleven(type="radio" name="size")
+                     label.inline(for="Eleven") 11
+            .row
+               .one.whole
+                  label(for="seasons") Seasons:
+                  ul.unstyled.zero
+                    li.radio
+                      input#seasons(type="radio" name="seasons" checked="")
+                      label.inline(for="all-seasons") All Seasons
+                    li.radio
+                      input#spring(type="radio" name="seasons")
+                      label.inline(for="spring") Spring
+                    li.radio
+                      input#summer(type="radio" name="seasons")
+                      label.inline(for="summer") Summer
+                    li.radio
+                      input#fall(type="radio" name="seasons")
+                      label.inline(for="fall") Fall
+                    li.radio
+                      input#winter(type="radio" name="seasons")
+                      label.inline(for="winter") Winter
             <div class="row">
               <div class="one whole">
                 <label for="type">Type:</label>
