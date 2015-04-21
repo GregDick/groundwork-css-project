@@ -61,29 +61,25 @@ article {
 /************ FORM STYLING ******************/
 #form {
   background-color: $green-background;
-
-  color:$green-text;
-
-  border-radius: 40px;
-}
-
-#form form {
-  background-color: $green-background;
-
   color:$green-text;
   border-radius: 40px;
 }
 
-#form h4 {
+#form {
+  form {
+    background-color: $green-background;
+    color:$green-text;
+    border-radius: 40px;
+}
+  h4 {
   padding-top: 8%;
   line-height: 1.2;
 }
-
-#form hr {
+  hr {
   color:$green-text;
-
   background-color:$green-text;
   height: 2px;
+ }
 }
 
 #shop-search {
@@ -113,70 +109,11 @@ select.unselected {
   margin-bottom: 30%;
 }
 
-/*#brand option {
-  color: $green-text;
-} NEED to MAKE GREEN */
-
-/************ FORM STYLING ******************/
-#form {
-  background-color: $green-background;
-
-  color:$green-text;
-  border-radius: 40px;
-}
-
-#form form {
-  background-color: $green-background;
-
-  color:$green-text;
-  border-radius: 40px;
-}
-
-#form h4 {
-  padding-top: 8%;
-  line-height: 1.2;
-}
-
-#form hr {
-  color:$green-text;
-
-  background-color:$green-text;
-
-  height: 2px;
-}
-
-#shop-search {
-  border: 0;
-  border-radius: 0;
-  background: white;
-}
-
-div > a.button.round.small {
-  text-decoration: none;
-  background: rgb(124, 171, 43);
-  color: #fff;
-  font-weight: 300;
-  margin: 8px 0 10px 5px;
-}
-
-.radio {
-  font-weight: 100  !important;
-  font-size: 1em  !important;
-  padding: 0  !important;
-  padding-left: 18% !important;
-}
-
-select.unselected {
-  color:$green-text;
-  margin-bottom: 10%;
-}
-
-
 @media screen and (max-width: 770px) {
   .radio {
     display: inline-block !important;
   }
   select.unselected {
-  margin-bottom:5%;
+    margin-bottom:5%;
   }
 }

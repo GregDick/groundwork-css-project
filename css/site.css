@@ -249,51 +249,6 @@ select.unselected {
   color: #7bad23;
   margin-bottom: 30%; }
 
-/*#brand option {
-  color: $green-text;
-} NEED to MAKE GREEN */
-/************ FORM STYLING ******************/
-#form {
-  background-color: #E8F9CB;
-  color: #7bad23;
-  border-radius: 40px; }
-
-#form form {
-  background-color: #E8F9CB;
-  color: #7bad23;
-  border-radius: 40px; }
-
-#form h4 {
-  padding-top: 8%;
-  line-height: 1.2; }
-
-#form hr {
-  color: #7bad23;
-  background-color: #7bad23;
-  height: 2px; }
-
-#shop-search {
-  border: 0;
-  border-radius: 0;
-  background: white; }
-
-div > a.button.round.small {
-  text-decoration: none;
-  background: #7cab2b;
-  color: #fff;
-  font-weight: 300;
-  margin: 8px 0 10px 5px; }
-
-.radio {
-  font-weight: 100  !important;
-  font-size: 1em !important;
-  padding: 0  !important;
-  padding-left: 18% !important; }
-
-select.unselected {
-  color: #7bad23;
-  margin-bottom: 10%; }
-
 @media screen and (max-width: 770px) {
   .radio {
     display: inline-block !important; }
